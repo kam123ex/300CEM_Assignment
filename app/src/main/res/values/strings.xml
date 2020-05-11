@@ -1,3 +1,96 @@
 <resources>
     <string name="app_name">300CEM_Assignment</string>
+    <string name="title_activity_public_user" translatable="false">PublicUserActivity</string>
+
+    <string name="navigation_drawer_open1" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close1" translatable="false">Close navigation drawer</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="nav_header_userName" translatable="false">User Name</string>
+    <string name="nav_header_userEmail" translatable="false">User@gmail.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="string_signIn">Sign In</string>
+    <string name="string_signUp">Register</string>
+    <string name="string_no_account_message">Don\'t have an account? SignUp</string>
+    <string name="string_have_account_message">Already have an account? SignIn</string>
+    <string name="string_user_email">Email</string>Recent orders
+    <string name="string_user_password">Password</string>Recent orders
+    <string name="string_new_photo">Choose Photo</string>
+
+
+    <string name="string_tool_bar_title">Sweet In Heart</string>
+
+    <string name="string_menu_home">Home</string>
+    <string name="string_menu_menu">Menu</string>
+    <string name="string_menu_gallery" translatable="false">gallery</string>
+    <string name="string_menu_slideshow" translatable="false">slideshow</string>
+
+    <string name="string_menu_myFavorite">My Favorite</string>
+    <string name="string_menu_cart">Shopping Cart</string>
+    <string name="string_menu_receipt">Receipt</string>
+    <string name="string_menu_blog">Blog</string>
+
+    <string name="string_txt_cart">My Orders:</string>
+    <string name="string_cart_alert_message">You don\'t have any dessert add it here,\n Please choose your dessert first.</string>
+    <string name="string_product_name">Product Name: </string>
+    <string name="string_product_quantity">Product Quantity: </string>
+    <string name="string_product_price">Price: </string>
+    <string name="string_product_total_price">Total Price: </string>
+    <string name="string_product_add_to_cart">Add To Cart</string>
+    <string name="string_product_next">Next</string>
+
+    <string name="string_confirm_title">Please confirm your Details.</string>
+    <string name="string_confirm_delivery_address">Delivery Address</string>
+    <string name="string_confirm_get_location">Get my location</string>
+    <string name="string_confirm_details">Confirm Details</string>
+
+
+    <string name="string_menu_signInOrUp">SignIn Or SignUp</string>
+    <string name="string_menu_signOut">SignOut</string>P
+    <string name="string_menu_information">Personal information</string>
+    <string name="string_menu_profile">My Profile</string>
+    <string name="string_menu_location">Location</string>
+    <string name="string_menu_setting">Setting</string>
+
+    <string name="string_blog_alert_message">No posts have been created yet.</string>
+    <string name="string_post_blog_image">Choose image</string>
+    <string name="string_post_blog_camera">Camera</string>
+    <string name="string_post_blog_title">Title</string>
+    <string name="string_post_blog_des">What are you thinking?</string>
+    <string name="string_post_blog_submit">Submit</string>
+
+    <string name="string_profile_title">My Profile:</string>
+    <string name="string_profile_new_photo">Choose new photo</string>
+    <string name="string_profile_user_name">User Name</string>
+    <string name="string_profile_email">Email Address</string>
+    <string name="string_profile_phone">Phone Number</string>
+    <string name="string_profile_new_password">New Password(If change new password)</string>
+    <string name="string_profile_now_password">Now Password(Required)</string>
+    <string name="string_profile_clean">Clean</string>
+    <string name="string_profile_update">Update</string>
+
+    <string name="string_setting_language">Language</string>
+
+    <string name="string_home_second" translatable="false">Home Second</string>
+    <string name="title_activity_private_user" translatable="false">PrivateUserActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_home" translatable="false">Home</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="title_activity_user_home" translatable="false">UserHome</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCR1PJxjhe88VwDxNM9Opb4KjnRxtGzK60</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="string_hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+    <string name="string_test_user_name" translatable="false">Peter</string>
+    <string name="string_test_user_email" translatable="false">P@gmail.com</string>
+    <string name="string_test_user_phone" translatable="false">65432187</string>
+    <string name="string_test_user_password" translatable="false">12345678</string>
+
 </resources>

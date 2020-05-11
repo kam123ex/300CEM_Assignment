@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">300CEM_Assignment</string>
+    <string name="string_tool_bar_title">甜在一心</string>
+
+    <string name="string_menu_signInOrUp">登入/註冊</string>
+
+    <string name="string_signIn">登入</string>
+    <string name="string_signUp">註冊</string>
+    <string name="string_no_account_message">沒有帳戶? 註冊</string>
+    <string name="string_have_account_message">已經有帳戶? 登入</string>
+    <string name="string_user_email">電郵</string>
+    <string name="string_user_password">密碼</string>
+    <string name="string_new_photo">選擇相片</string>
+
+    <string name="string_menu_home">主頁</string>
+    <string name="string_menu_menu">菜單</string>
+    <string name="string_menu_cart">購物車</string>
+    <string name="string_menu_receipt">收據</string>
+    <string name="string_menu_myFavorite">我的最愛</string>
+    <string name="string_menu_information">個人資訊</string>
+    <string name="string_menu_profile">我的檔案</string>
+    <string name="string_menu_location">地圖</string>
+    <string name="string_menu_setting">設置</string>
+    <string name="string_menu_signOut">登出</string>
+    <string name="string_menu_blog">博客</string>
+
+    <string name="string_blog_alert_message">尚未創建任何帖子。</string>
+    <string name="string_post_blog_image">選擇相片</string>
+    <string name="string_post_blog_camera">相機</string>
+    <string name="string_post_blog_title">標題</string>
+    <string name="string_post_blog_des">在想什麼?</string>
+    <string name="string_post_blog_submit">提交</string>
+
+    <string name="string_txt_cart">我的訂單</string>
+    <string name="string_cart_alert_message">你還沒有點選任何甜點,請先選擇你的甜點。</string>
+    <string name="string_product_name">產品名稱: </string>
+    <string name="string_product_quantity">產品數量: </string>
+    <string name="string_product_price">價格: </string>
+    <string name="string_product_total_price">總額: </string>
+    <string name="string_product_add_to_cart">加到購物車</string>
+    <string name="string_product_next">下一步</string>
+
+    <string name="string_confirm_title">請確認您的詳情。</string>
+    <string name="string_confirm_delivery_address">外送地址</string>
+    <string name="string_confirm_get_location">取得我的位置</string>
+    <string name="string_confirm_details">確認</string>
+
+
+    <string name="string_profile_title">我的檔案</string>
+    <string name="string_profile_new_photo">新的相片</string>
+    <string name="string_profile_user_name">使用者名稱</string>
+    <string name="string_profile_email">電郵</string>
+    <string name="string_profile_phone">電話</string>
+    <string name="string_profile_new_password">新密碼(如需要)</string>
+    <string name="string_profile_now_password">密碼(需要)</string>
+    <string name="string_profile_clean">清除</string>
+    <string name="string_profile_update">提交</string>
+
+    <string name="string_setting_language">語言</string>
+</resources>
