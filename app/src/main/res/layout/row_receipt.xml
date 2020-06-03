@@ -12,18 +12,28 @@
         android:background="@color/color_frontend"
         android:padding="10dp">
 
+        <TextView
+            android:id="@+id/txt_receipt_order_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Order ID"
+            android:textColor="@color/color_font"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
         <ImageView
             android:id="@+id/icon"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_below="@id/txt_receipt_order_id"
             android:src="@drawable/app_logo" />
 
         <TextView
             android:id="@+id/txt_receipt_date"
-            android:layout_width="160dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/icon"
-            android:layout_marginLeft="5dp"
             android:text="Receipt Date"
             android:textColor="@color/color_font"
             android:textSize="14dp"
@@ -31,71 +41,102 @@
 
         <TextView
             android:id="@+id/txt_receipt_time"
-            android:layout_width="160dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/icon"
             android:layout_alignParentEnd="true"
-            android:layout_marginLeft="5dp"
             android:text="Receipt Time"
             android:textColor="@color/color_font"
             android:textSize="14dp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/txt_receipt_product_name"
-            android:layout_width="160dp"
+            android:id="@+id/txt_receipt_pid"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/txt_receipt_date"
-            android:layout_marginLeft="50dp"
+            android:layout_below="@id/txt_receipt_time"
+            android:text="Product ID"
+            android:textColor="@color/color_font"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_receipt_pname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_receipt_time"
+            android:layout_alignParentEnd="true"
             android:text="Product name"
             android:textColor="@color/color_font"
             android:textSize="14dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/txt_receipt_quantity"
-            android:layout_width="160dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/txt_receipt_product_name"
-            android:layout_marginLeft="50dp"
+            android:layout_below="@+id/txt_receipt_pname"
             android:text="Quantity"
             android:textColor="@color/color_font"
             android:textSize="14dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/txt_receipt_amount"
-            android:layout_width="160dp"
+            android:id="@+id/txt_receipt_total_amount"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/txt_receipt_quantity"
-            android:layout_marginLeft="50dp"
+            android:layout_below="@+id/txt_receipt_pname"
+            android:layout_alignParentEnd="true"
             android:text="Total Amount"
             android:textColor="@color/color_font"
             android:textSize="14dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/txt_receipt_user"
-            android:layout_width="160dp"
+            android:id="@+id/txt_receipt_user_id"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/txt_receipt_amount"
-            android:layout_marginLeft="50dp"
+            android:layout_below="@+id/txt_receipt_total_amount"
+            android:text="User ID"
+            android:textColor="@color/color_font"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_receipt_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_receipt_total_amount"
+            android:layout_alignParentEnd="true"
             android:text="Order user"
             android:textColor="@color/color_font"
             android:textSize="14dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_receipt_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_receipt_user_id"
+            android:text="Phone Number"
+            android:textColor="@color/color_font"
+            android:textSize="14dp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/txt_receipt_address"
-            android:layout_width="160dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/txt_receipt_user"
-            android:layout_marginLeft="50dp"
+            android:layout_below="@+id/txt_receipt_phone"
             android:text="Address"
             android:textColor="@color/color_font"
             android:textSize="14dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
-
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_below="@+id/txt_receipt_address"
+            android:background="@color/color_font" />
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

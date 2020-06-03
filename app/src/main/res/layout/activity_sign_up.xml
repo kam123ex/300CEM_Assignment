@@ -89,7 +89,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:hint="Password"
-                android:inputType="textEmailAddress"
+                android:inputType="textPassword"
                 android:textColor="@color/color_font"
                 android:textSize="18sp" />
 <!--            android:text="@string/string_test_user_password"-->
@@ -100,7 +100,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:hint="Confirm Password"
-                android:inputType="textPassword"
+                android:inputType="text"
                 android:textColor="@color/color_font"
                 android:textSize="18sp" />
 <!--            android:text="@string/string_test_user_password"-->

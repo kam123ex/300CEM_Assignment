@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:cardCornerRadius="3dp"
-    app:cardElevation="5dp"
     android:layout_margin="10dp"
     android:background="@color/color_frontend"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="5dp"
     app:cardUseCompatPadding="true"
     app:contentPadding="10dp">
 
@@ -21,8 +21,8 @@
         android:id="@+id/txt_blog_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Title"
         android:layout_below="@id/image_blog_image"
+        android:text="Title"
         android:textColor="@color/color_font"
         android:textSize="22sp"
         android:textStyle="bold" />
@@ -31,8 +31,8 @@
         android:id="@+id/txt_blog"
         android:layout_width="match_parent"
         android:layout_height="3dp"
-        android:background="@color/places_autocomplete_prediction_primary_text_highlight"
-        android:layout_below="@id/txt_blog_title" />
+        android:layout_below="@id/txt_blog_title"
+        android:background="@color/places_autocomplete_prediction_primary_text_highlight" />
 
     <RelativeLayout
         android:id="@+id/rl_blog"
@@ -52,16 +52,16 @@
             android:id="@+id/txt_blog_user"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/color_font"
-            android:textSize="18sp"
             android:layout_toEndOf="@+id/txt_blog_date"
-            android:text="date" />
+            android:text="date"
+            android:textColor="@color/color_font"
+            android:textSize="18sp" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/image_blog_circle_icon"
-            android:layout_toEndOf="@+id/txt_blog_user"
             android:layout_width="25dp"
-            android:layout_height="25dp"/>
+            android:layout_height="25dp"
+            android:layout_toEndOf="@+id/txt_blog_user" />
 
 
     </RelativeLayout>
@@ -76,5 +76,9 @@
         android:textColor="@color/color_font"
         android:textSize="18sp" />
 
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_below="@+id/title_blog_des"
+        android:background="@color/color_font" />
 </RelativeLayout>
